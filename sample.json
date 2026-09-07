@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "price",
+    "expression": "100"
+  },
+  {
+    "id": 2,
+    "name": "qty",
+    "expression": "5"
+  },
+  {
+    "id": 3,
+    "name": "revenue",
+    "expression": "price * qty"
+  },
+  {
+    "id": 4,
+    "name": "cost",
+    "expression": "300"
+  },
+  {
+    "id": 5,
+    "name": "margin",
+    "expression": "revenue - cost"
+  },
+  {
+    "id": 6,
+    "name": "threshold",
+    "expression": "500"
+  },
+  {
+    "id": 7,
+    "name": "report",
+    "expression": "if (margin > threshold) then margin else 0"
+  }
+]
